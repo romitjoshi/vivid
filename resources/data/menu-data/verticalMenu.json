@@ -1,0 +1,118 @@
+{
+  "menu": [
+    {
+      "url": "admin/home",
+      "name": "Dashboard",
+      "icon": "home",
+      "slug": "Dashboard"
+    },
+    {
+      "url": "admin/category",
+      "name": "Categories",
+      "icon": "grid",
+      "slug": "category"
+    },
+    {
+      "name": "Comics",
+      "icon": "book-open",
+      "slug": "",
+      "classlist":"Comics",
+      "badge":2,
+      "submenu": [
+        {
+          "url": "admin/comic",
+          "name": "Approve Comic",
+          "icon": "activity",
+          "slug": "dashboard-analytics"
+        },
+        {
+          "url": "admin/pending-comic",
+          "name": "Unapprove Comic",
+          "icon": "activity",
+          "slug": "dashboard-analytics",
+          "classlist":"Pending"
+        }
+      ]
+    },
+    {
+      "url": "admin/product",
+      "name": "Products",
+      "icon": "package",
+      "slug": "products"
+    },
+    {
+      "url": "admin/order",
+      "name": "Orders",
+      "icon": "briefcase",
+      "slug": "Orders"
+    },
+    {
+      "url": "admin/user",
+      "name": "Users",
+      "icon": "user",
+      "slug": "user"
+    },
+    {
+      "name": "Publishers",
+      "icon": "book-open",
+      "slug": "",
+      "classlist":"Publishers",
+      "submenu": [
+        {
+          "url": "admin/publisher",
+          "name": "Approve",
+          "icon": "activity",
+          "slug": "dashboard-analytics"
+        },
+        {
+          "url": "admin/pendingpublisher",
+          "name": "Unapprove",
+          "icon": "activity",
+          "classlist":"pendingpublisher",
+          "slug": "dashboard-analytics"
+        }
+      ]
+    },
+
+    {
+      "url": "admin/revenue",
+      "name": "Revenue",
+      "icon": "dollar-sign",
+      "slug": "Revenue"
+    },
+    {
+      "url": "admin/payout",
+      "name": "Payout Request",
+      "icon": "credit-card",
+      "slug": "dashboard-analytics"
+    },
+    {
+      "url": "admin/notification",
+      "name": "Notification",
+      "icon": "bell",
+      "slug": "Notification"
+    },
+    {
+      "url": "admin/setting",
+      "name": "Settings",
+      "icon": "settings",
+      "slug": "Settings"
+    },
+    {
+      "name": "Web",
+      "icon": "home",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "admin/banner",
+          "name": "Banner",
+          "icon": "activity",
+          "slug": "dashboard-analytics"
+        }
+
+      ]
+    }
+
+
+  ]
+}

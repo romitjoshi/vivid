@@ -1,0 +1,48 @@
+.card-header.border-bottom.p-1 {display: none;}
+a.paginate_button.current {background-color: #fff !important;}
+.addFornt label.form-label, .addFornt p {color: #fff;}
+.addFornt .modal-body {text-align: left;}
+.addFornt .modal-body {margin: 0px auto;}
+input[type='text'] {color: #fff !important;}
+.select2 {width: 100% !important;}
+.select2-container{ z-index: 99999;}
+/* label#name-error{ color: red;font-size: inherit;top:0} */
+label.error {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    position: relative;
+    top: 8px;
+    font-size: 14px;
+    color: red;
+}
+.card {background-color: #161616;}
+.viewcpage span{color:#fff}
+.fff{color: #fff !important;}
+.slidercalss h4 {color: #fff;font-size: 20px;font-weight: 600;}
+.form-control, .form-select {background-color: #202529; color:#fff}
+label.form-check-label {color: #fff;}
+input.form-label.form-check-input {border-color: #fff;}
+label.form-label {color: #fff;}
+/* input.startTime.form-control.autioTimer {
+    background-color: #1f2529 !important;
+} */
+.dashIcon{
+    padding: 8px !important;
+    width: 39px !important;
+    text-align: center;
+}
+.bg-primary1 {
+    background-color: #212529!important;
+}
+.card1 {
+    background-color: #0898D9;
+    border-radius: 10px;
+}
+table.dataTable {width: 100% !important;}
+
+@media(max-width:767px)
+{
+    .slidercalss h4{font-size: 16px;padding:0px;}
+    .mtcustom5{margin-top:0px !important;}
+}

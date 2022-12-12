@@ -1,0 +1,190 @@
+.activeClass{
+    background: linear-gradient(91.08deg, #0597D9 2.32%, rgba(5, 151, 217, 0.6) 93.91%);
+    border-radius: 10px;
+}
+.mysublistyear img{
+    width: 138px;
+}
+/* .loginheader a:hover{
+    color:#fff !important;
+
+} */
+.btn:hover {
+    color: #fff !important;
+}
+.carddesign{
+    background-color: #161616;
+    padding: 3px 6px;
+    color: #0496cd;
+}
+.copyrights p{
+    text-align: left;
+}
+.footerLink{
+    text-align: right;
+}
+.footerLink a {
+    text-decoration: none;
+    color: #fff;
+}
+.textwhite p, .textwhite h1, .textwhite h2, .textwhite h3, .textwhite h4 , .textwhite h5 ,.textwhite h6, .textwhite ul ,.textwhite ul li, .textwhite span, .textwhite a ,.textwhite p{
+    color:#fff !important;
+
+}
+.deleteLibSection{
+    position: absolute;
+    z-index: 1;
+}
+.deleteLibrary{
+    color: #000;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 6px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.productBuyImg{
+    object-fit: cover;
+    width: 65px;
+    border-radius: 12px;
+    height: 60px;
+}
+a.btndisble {
+    background: linear-gradient(17deg, #0597d91c 2.32%, rgba(5, 151, 217, 0.6) 93.91%) !important;
+    cursor: not-allowed !important;
+    pointer-events: none;
+} 
+.modal-footer-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-check img {
+    margin: 0 auto;
+}
+#succsessModel h3{
+    color: #fff;
+    font-size: 25px !important;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+#succsessModel h5{
+    padding: 20px 0px;
+    color: #fff;
+    font-size: 15px;
+}
+#succsessModel .btnDone{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+#succsessModel .btnDone a{
+    background: #0898D9;
+    padding: 10px 67px;
+    border-radius: 100px;
+    color: #fff;
+    text-decoration: unset;
+}
+.socialSection {
+    margin-top: 30px;
+}
+.orderrepeat h4 {
+    margin-bottom: 10px;
+}
+.repeatSection {
+    border-bottom: 1px solid gray;
+    margin: 30px 0px;
+}
+.col-6.innerRepet {
+    margin-bottom: 20px;
+}
+.odds p {
+    margin: 0px;
+}
+.socialSection p {
+    color: #fff;
+}
+.imgSocaal img {
+    margin-left: 5px;
+}
+div#social-links ul {
+    display: flex;
+    list-style: none;
+    margin-top: 8px;
+}
+
+div#social-links {
+    position: absolute;
+}
+.imgSocaal {
+    margin-bottom: 20px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.cardInput{
+    background: #161616;
+    padding: 10px;
+    border-radius: 12px;
+    width: 95%;
+    margin-left: 10px;
+}
+
+.displayData td,  .displayData th, .dataTables_wrapper .dataTables_length, .dataTables_info, .dataTables_filter{
+    color: #fff !important;
+}
+a.btn.btn-primary {background-color: #0898D9 !important;border: unset;}
+i.fa {color: #0898D9 !important;}
+input[type="file"] {color: #fff !important;}
+select {color: #fff;}
+option {color: #000 !important;}
+input[type="search"] {
+    color: #fff;
+}
+.badge {
+    font-size: 14PX;
+}
+.docmargin {
+    margin-left: 10px;
+}
+.downloadanc{
+    text-decoration: none;
+}
+a.downloadanc {
+    color: #0898D9;
+}
+#DownloadOurAppModel .modal-dialog{
+    max-width: 600px;
+}
+.subscription-page-btn {
+    background-color: #0898D9;
+    color: #fff;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+a.coinsbtn {
+    color: #0898D9;
+    font-weight: bold;
+    cursor: pointer;
+}
+img.v-coin-sub {
+    margin-left: 2px;
+    margin-top: -3px;
+}
+#CoinsPurchase{
+    z-index: 999999 !important;
+}
+@media(max-width:767px)
+{
+    .sociallinks {
+        position: relative;
+    }
+    #social-links {
+        position: absolute;
+        top: 45px;
+        right: 2px;
+    }
+}

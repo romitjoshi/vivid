@@ -1,0 +1,88 @@
+.border-red {
+    border: 1px solid red !important;
+}
+
+
+.error-tag {
+    color: red;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-top:10px;
+}
+label.error {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    position: relative;
+    top: -11px;
+    font-size: 14px;
+    color: red;
+}
+.checkoutForm label.error {
+    top: 1px;
+}
+
+.importloader {
+    width: 13px !important;
+    height: 13px !important;
+    margin-right: 8px;
+}
+.dNone{
+    display: none !important;
+}
+a.brand-logo img {
+    width: 46%;
+}
+.padding-left-right{
+    padding: 0 10px !important;
+}
+.modal-slide-in .modal-dialog.sidebar-sm {
+    width: 40rem !important;
+}
+.previewImageSection {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+.previewImageSection2 {
+    width: 50px;
+    height: 50px;
+}
+.previewImageSection img, .previewImageSection2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.previewImageSection3 img  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left:0px;
+}
+.product_img{
+    margin-left:15px;
+}
+.deleteImageSection {
+    position: relative;width:50px;height:50px;margin-right:10px;
+
+}
+.deleteImageSection svg.feather.feather-x {
+    position: absolute;
+    right: -5px;cursor: pointer;
+    color: red;
+}
+
+.startTime {
+    background-color: #efefef !important;
+}
+.feather, [data-feather] {
+    height: 1.2rem !important;
+    width: 1.2rem !important;
+}
+
+@media(min-width:768px)
+{
+    .modal-slide-in .modal-dialog.sidebar-sm {
+        width: 40rem !important;
+    }
+}
